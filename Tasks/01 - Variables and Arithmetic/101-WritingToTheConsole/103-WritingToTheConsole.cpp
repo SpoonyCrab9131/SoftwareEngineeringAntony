@@ -9,10 +9,12 @@ int main()
     // ************************ Using printf ******************************* 
     printf("Hello Everyone. We are using C\nHow are things?\n");
     // TASK (a) - remove \n from the string above - what does this change? 
+
+    printf("Hello Everyone. We are using CHow are things?");
     
     // ******************* Using printf placeholders *********************** 
     int age = 23;
-    printf("My age is %d\n", age);
+    printf("\nMy age is %d\n", age);
 
     // Some other placeholders include %c for character and %f for floating point
     float radius = 10.0f;
@@ -20,6 +22,8 @@ int main()
 
     // TASK(b) - Use printf to display the value of the variable area. Look at the lecture slides and find out how to limit this to 3 decimal places
     // Write solution here
+
+    printf("Area: %f\n", area);
     
     //
 
@@ -30,6 +34,8 @@ int main()
 
     // TASK(c) - using printf, display the radius and the area using a single printf statement
     // Write solution here
+
+    printf("Radius: %f\nArea: %f\n", radius, area);
 
     //
 }
