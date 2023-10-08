@@ -14,6 +14,12 @@ int main()
             
             //Task - Write another level of nesting here
 
+            for (int h = 0; h < 7; h++) {
+
+                printf("\t\tInner loop number %d\n", h);
+
+            }
+
         }
     }
 }

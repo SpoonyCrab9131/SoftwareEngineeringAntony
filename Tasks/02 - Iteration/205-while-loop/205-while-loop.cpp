@@ -2,11 +2,11 @@
 
 int main()
 {
-    int i = 0;
+    int i = 1;
 
     puts("Start while loop");
 
-    while (i < 5)
+    while (i <= 5)
     {
         printf("i = %d\n", i);
         i++;        // same as i = i + 1 but more concise;

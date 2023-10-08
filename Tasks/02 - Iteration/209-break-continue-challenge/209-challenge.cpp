@@ -3,7 +3,7 @@
 int main()
 {
     bool quitEarly = false;
-    for (int i = 0; i <= 10; i++)   // potentially loop from 1 to 10  
+    for (int i = 0; true; i++)   // potentially loop from 1 to 10  
     {
         char c = getchar(); //Read character
         char _ = getchar(); //Read and discard newline (nice little hack :)

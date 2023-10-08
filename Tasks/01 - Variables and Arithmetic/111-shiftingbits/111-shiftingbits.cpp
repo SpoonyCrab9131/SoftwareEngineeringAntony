@@ -30,7 +30,13 @@ int main()
 
 	//Shift right by 1 and display
 
+	number >>= 1;
+	displayAndCompare(number);
+
 
 	//Shift left by 1 and display
+
+	number <<= 1;
+	displayAndCompare(number);
 
 }
