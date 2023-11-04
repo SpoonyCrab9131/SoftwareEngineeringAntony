@@ -19,25 +19,35 @@ public:
 	//Constructor
 	StudentRecord(string firstName, string lastName, int ID) {
 
+		updateFirstName(firstName);
+		updateLastName(lastName);
+		updateFullName();
+		studentID = ID;
+
 	}
 
 	//Display details about the student in the terminal, including ID and full name
 	void display() {
+
+		cout << "Full Name: " << fullName << endl << "ID: " << studentID;
 		
 	}
 
 	// *********************** Getters *********************** 
 
 	//Returns copy of full name (as a string) - First name, followed by a space, followed by Last name
-	string getFullName()	
+	string getFullName()
 	{
+
+		return fullName;
 		
 	}
 
 	//Returns a copy of the ID (as an integer)
 	int getID()			
 	{
-		
+		return studentID;
+
 	}
 
 	// *********************** Setters *********************** 
@@ -46,11 +56,15 @@ public:
 	void updateFirstName(string firstName)
 	{
 
+		studentFirstName = firstName;
+
 	}
 
 	//Update the last name
 	void updateLastName(string lastName)
 	{
+
+		studentLastName = lastName;
 
 	}
 };

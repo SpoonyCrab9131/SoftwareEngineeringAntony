@@ -21,8 +21,6 @@ int main()
 
     //Write solution here
 
-
-
     // Challenge 2 - word count
     // Type in a sentence, and count the number of time the words "the" appears 
     getline(std::cin, input);   //Read a line (users types this in)

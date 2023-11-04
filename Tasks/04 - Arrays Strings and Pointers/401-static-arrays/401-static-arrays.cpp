@@ -45,10 +45,22 @@ int main()
     //Write task 1 solution here
     int64_t sum = 0L;   //Result needs to be bigger than int to avoid overflow
 
+    for (int num : nums) {
+
+        sum += num;
+
+    }
+
+    cout << sum;
 
     // ***********************************************************************************************************************
     // TASK 2 - calculate the mean of all elements (this will be a fractional value) and display to 1 decimal place accuracy *
     // ***********************************************************************************************************************
+
+    double sumean = sum / sizeof(nums);
+
+    printf("\n%.1f", sumean);
+
 
     //Write task 2 solution here
 
